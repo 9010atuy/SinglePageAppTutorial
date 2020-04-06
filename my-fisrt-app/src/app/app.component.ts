@@ -17,7 +17,29 @@ export class AppComponent {
   // codeby:any = 'yuta';
 
   // array
-  greets = ['Good Morning', 'Hello', 'Good Evening'];
+  greets = [
+    {name: 'Bob', greet:'Good Morning'},
+    {name: 'Ann', greet:'2002'}, 
+    {name: 'Jonus', greet: 'Perfect Stranger'}];
+  items = 
+  [
+    {
+      name:'iPhone11 Pro', 
+      price: '$140'
+    }, 
+    {
+      name:'iPhone11', 
+      price: '$110'
+    }, 
+    {
+      name: 'MacBookPro', 
+      price: '$2400'
+    }, 
+    {
+      name: 'MacBookAri'
+      , price: '$1300'
+    }
+  ];
 
 
 
