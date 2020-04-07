@@ -384,16 +384,14 @@
         price
       </th>
     </tr>
-    <!-- <div *ngFor='let item of items'> -->
       <tr *ngFor='let item of items'>
         <td>
           {{item.name}}
         </td>
-        <td>
+        <td *ngIf="item.price">
           {{item.price}}
         </td>
       </tr>
-    <!-- </div> -->
   </table>
 
   <!-- Resources -->

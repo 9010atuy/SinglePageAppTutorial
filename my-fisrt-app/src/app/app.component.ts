@@ -36,11 +36,16 @@ export class AppComponent {
       price: '$2400'
     }, 
     {
-      name: 'MacBookAri'
-      , price: '$1300'
+      name: 'iPhoneSE2',
+      price: ''
+    },
+    {
+      name: 'iPhone12'
+    },
+    {
+      name: 'MacBookAir',
+      price: '$1300'
     }
   ];
-
-
 
 }
