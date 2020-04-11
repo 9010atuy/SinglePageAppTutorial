@@ -25,15 +25,15 @@ export class AppComponent {
   [
     {
       name:'iPhone11 Pro', 
-      price: '$140'
+      price: '140'
     }, 
     {
       name:'iPhone11', 
-      price: '$110'
+      price: '110'
     }, 
     {
       name: 'MacBookPro', 
-      price: '$2400'
+      price: '2400'
     }, 
     {
       name: 'iPhoneSE2',
@@ -44,8 +44,20 @@ export class AppComponent {
     },
     {
       name: 'MacBookAir',
-      price: '$1300'
+      price: '1300'
     }
   ];
 
+  doSomething(){
+    alert('button clicked;');
+  }
+
+  share(){
+    alert('shared!');
+  }
+
+  onNotify(){
+    alert('You will be notified when the item goes on sale');
+  }
+  
 }
