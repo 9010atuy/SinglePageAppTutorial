@@ -21,32 +21,7 @@ export class AppComponent {
     {name: 'Bob', greet:'Good Morning'},
     {name: 'Ann', greet:'2002'}, 
     {name: 'Jonus', greet: 'Perfect Stranger'}];
-  items = 
-  [
-    {
-      name:'iPhone11 Pro', 
-      price: '140'
-    }, 
-    {
-      name:'iPhone11', 
-      price: '110'
-    }, 
-    {
-      name: 'MacBookPro', 
-      price: '2400'
-    }, 
-    {
-      name: 'iPhoneSE2',
-      price: ''
-    },
-    {
-      name: 'iPhone12'
-    },
-    {
-      name: 'MacBookAir',
-      price: '1300'
-    }
-  ];
+  
 
   doSomething(){
     alert('button clicked;');
