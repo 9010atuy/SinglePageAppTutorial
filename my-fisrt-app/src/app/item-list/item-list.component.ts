@@ -7,8 +7,10 @@ import { items } from '../items';
     styleUrls: ['./item-list.component.scss']
  })
 
- export class
- ItemListComponent {
+ export class ItemListComponent {
      items = items;
      
-    }
+     share() {
+        alert('shared!');
+     }
+}

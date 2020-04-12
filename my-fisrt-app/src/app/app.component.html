@@ -348,42 +348,9 @@
 
   <div>created by {{ codeby }}</div>
   <div>{{ year }} 年 {{ month }} 月 {{ day }} 日 </div>
-  <!-- <table>
-    <tr>
-      <th>
-        product's name
-      </th>
-      <th>
-        price
-      </th>
-    </tr>
-    <tr>
-      <td>
-        {{items[0].name}}
-      </td>
-      <td>
-        {{items[0].price}}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {{items[1].name}}
-      </td>
-      <td>
-        {{items[1].price}}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {{items[2].name}}
-      </td>
-      <td>
-        {{items[2].price}}
-      </td>
-    </tr>
-  </table> -->
-
-  <button (click)="doSomething()">button event</button>
+  <a routerLink="/itemcart" class="button fancy-button">
+    <i class="material-icons">shopping_cart</i>Checkout
+  </a>
 
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->

@@ -11,7 +11,7 @@
     </tr>
     <tr *ngFor='let item of items; index as itemId'>
       <td [title]="item.name + ' details'" [routerLink]="
-      ['/itemdetail', itemId]">
+      ['/items', itemId]">
         {{item.name}}
       </td>
       <td>
@@ -21,8 +21,8 @@
         <button (click)="share()">Share</button>
       </td>
       <td>
-        <app-alert [item]="item" (notify)="onNotify()">
-        </app-alert>
+        <!-- <app-alert [item]="item" (notify)="onNotify()">
+        </app-alert> -->
       </td>
     </tr>
   </table>
