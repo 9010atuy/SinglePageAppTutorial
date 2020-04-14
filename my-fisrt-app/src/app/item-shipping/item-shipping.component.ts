@@ -1,6 +1,5 @@
 import {Component, OnInit } from '@angular/core';
 import {ItemCartService} from '../itemcart.service';
-import { timingSafeEqual } from 'crypto';
 
 @Component({
     selector: 'app-item-shipping',
