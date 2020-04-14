@@ -17,6 +17,7 @@ export class ItemDetailComponent implements OnInit {
     };
 
     ngOnInit() {
+        // パラメーター（URLの末尾（/<itemId>））に付与されたitemIdからアイテムを取得する
         this.route.paramMap.subscribe(params => {
             this.item = items[+params.get('itemId')];
         })

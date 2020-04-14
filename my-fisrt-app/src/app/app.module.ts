@@ -29,6 +29,8 @@ import { ItemShippingComponent } from './item-shipping/item-shipping.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
     {path: '', component: ItemListComponent }  ,
+    // [:]：パラメーターを表す。以下の通りに遷移元からパラメーターを渡す
+    // [routerLink]="['/items', itemId]" -> /items/<itemId>
     {path: 'items/:itemId', component: ItemDetailComponent},
     {path: 'itemcart', component: ItemCartComponent},
     {path: 'itemshipping', component: ItemShippingComponent}
